@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<!-- Lang -->
+<html lang="pt-br">
+  <head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:url" content="https://peridote.com.br" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Peridote - Ateliê | Produtos Personalizados ;)"
+    />
+    <meta
+      property="og:description"
+      content="Lembranças e Presentes, Estampas em Geral, Entregas em todo o Brasil"
+    />
+    <meta
+      property="og:image"
+      content="https://scontent.cdninstagram.com/v/t51.2885-19/429458343_939928294404161_365507444692122765_n.jpg?_nc_ht=scontent.cdninstagram.com&_nc_cat=105&_nc_ohc=63xVkfN0vDQQ7kNvgFz32I6&edm=APs17CUBAAAA&ccb=7-5&oh=00_AYASSpcmixNKE4t-xCRPwrvSGgptkwLBvnsmsf2NeZZKmA&oe=66482AD9&_nc_sid=10d13b"
+    />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- JS -->
+    <script src="script.js" defer></script>
+    <!-- Title -->
+    <title>Peridote - Ateliê | Produtos Personalizados ;)</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="logo">Peridote</div>
+      <ul class="nav">
+        <li><a href="#mugs-nav">Canecas</a></li>
+        <li><a href="#acrylic-nav">Acrílicos</a></li>
+        <li><a href="#shirts-nav">Camisetas</a></li>
+        <li><a href="#others-nav">Outros</a></li>
+      </ul>
+      <button id="menu" class="menu"><i class="bx bx-menu"></i></button>
+      <a
+        href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+        target="_blank"
+        class="action"
+        ><i class="bx bx-cart"></i> Faça um Orçamento</a
+      >
+    </header>
+
+    <!-- Overlay -->
+    <div id="overlay" class="overlay"></div>
+    <div id="menu-window" class="menu-window">
+      <div class="header">
+        <h1>Peridote</h1>
+        <i id="close" class="bx bx-x"></i>
+      </div>
+      <ul class="nav">
+        <li><a href="#mugs-nav">Canecas</a></li>
+        <li><a href="#acrylic-nav">Acrílicos</a></li>
+        <li><a href="#shirts-nav">Camisetas</a></li>
+        <li><a href="#others-nav">Outros</a></li>
+      </ul>
+      <p>@gabrielamacedo</p>
+    </div>
+
+    <!-- Hero -->
+    <section id="hero">
+      <div class="container">
+        <div class="title">
+          <h1>Peridote</h1>
+          <h2>Ateliê</h2>
+        </div>
+        <div class="links">
+          <a
+            class="action"
+            href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+            target="_blank"
+            ><i class="bx bx-cart"></i> Faça um <br />
+            Orçamento!</a
+          >
+          <a href="Peridote.pdf" class="action" download>
+            <i class="bx bxs-file-pdf"></i> Produtos <br />
+            em PDF
+          </a>
+        </div>
+        <p class="adress">
+          Veja nossos <span>produtos</span> abaixo
+          <i class="bx bxs-chevron-down"></i>
+        </p>
+      </div>
+      <div class="background"></div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="wrap">
+        <i class="bx bxs-coffee"></i>
+        <p>Produtos Personalizados</p>
+      </div>
+      <div class="wrap">
+        <i class="bx bxs-gift"></i>
+        <p>Lembranças e Presentes</p>
+      </div>
+      <div class="wrap">
+        <i class="bx bxs-palette"></i>
+        <p>Estampas em Geral</p>
+      </div>
+      <div class="wrap">
+        <i class="bx bxs-truck"></i>
+        <p>Entregas em todo o Brasil</p>
+      </div>
+    </section>
+
+    <!-- Parallax -->
+    <section id="parallax">
+      <div class="background">
+        <h2>Peridote</h2>
+        <p>
+          <span>&gt; Produtos Personalizados</span> feito com carinho para você
+          ;)
+        </p>
+      </div>
+    </section>
+
+    <!-- Mugs About -->
+    <section id="mugs-about">
+      <div class="header">
+        <h2><i class="bx bx-chevron-right"></i> Materiais:</h2>
+        <i id="arrow-icon" class="bx bx-chevron-down"></i>
+      </div>
+      <div id="wrapper">
+        <div class="container">
+          <div class="info">
+            <img src="imagens/materials/material08.jpg" alt="Material" />
+            <span>Mágica com interior colorido</span>
+            <i class="bx bxs-star"></i>
+          </div>
+          <div class="info">
+            <img src="imagens/materials/material01.jpg" alt="Material" />
+            <span>Faixa de Glitter</span>
+          </div>
+          <div class="info">
+            <img src="imagens/materials/material02.jpg" alt="Material" />
+            <span>Glitter</span>
+          </div>
+          <div class="info">
+            <img src="imagens/materials/material03.jpg" alt="Material" />
+            <span>Mágica</span>
+          </div>
+          <div class="info">
+            <img src="imagens/materials/material06.jpg" alt="Material" />
+            <span>Metalizada</span>
+          </div>
+          <div class="info">
+            <img src="imagens/materials/material07.jpg" alt="Material" />
+            <span>Vidro</span>
+          </div>
+          <div class="info">
+            <img src="imagens/materials/material09.jpg" alt="Material" />
+            <span>Polímero com interior colorido</span>
+          </div>
+          <div class="info">
+            <img src="imagens/materials/material04.jpg" alt="Material" />
+            <span>Marmorizada</span>
+          </div>
+          <div class="info">
+            <img src="imagens/materials/material05.jpg" alt="Material" />
+            <span>Vidro com fundo degradê</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mugs -->
+    <div id="mugs-nav" class="info-tag">
+      <h2>Canecas:</h2>
+      <p>Valores a partir de: <span>R$ 35,00</span>.</p>
+    </div>
+    <section id="mugs" class="products">
+      <div class="container">
+        <img src="imagens/gallery/mugs/c-landscape01.jpg" alt="Caneca" />
+        <div class="background">
+          <a
+            class="cart"
+            href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+            target="_blank"
+            ><img src="imagens/others/cart.svg"
+          /></a>
+          <p>Faça um Orçamento!</p>
+        </div>
+      </div>
+      <div class="container">
+        <img src="imagens/gallery/mugs/c-landscape02.jpg" alt="Caneca" />
+        <div class="background">
+          <a
+            class="cart"
+            href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+            target="_blank"
+            ><img src="imagens/others/cart.svg"
+          /></a>
+          <p>Faça um Orçamento!</p>
+        </div>
+      </div>
+      <div class="container">
+        <img src="imagens/gallery/mugs/c-landscape03.jpg" alt="Caneca" />
+        <div class="background">
+          <a
+            class="cart"
+            href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+            target="_blank"
+            ><img src="imagens/others/cart.svg"
+          /></a>
+          <p>Faça um Orçamento!</p>
+        </div>
+      </div>
+      <div class="container">
+        <img src="imagens/gallery/mugs/c-landscape04.jpg" alt="Caneca" />
+        <div class="background">
+          <a
+            class="cart"
+            href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+            target="_blank"
+            ><img src="imagens/others/cart.svg"
+          /></a>
+          <p>Faça um Orçamento!</p>
+        </div>
+      </div>
+      <div class="container">
+        <img src="imagens/gallery/mugs/c-landscape05.jpg" alt="Caneca" />
+        <div class="background">
+          <a
+            class="cart"
+            href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+            target="_blank"
+            ><img src="imagens/others/cart.svg"
+          /></a>
+          <p>Faça um Orçamento!</p>
+        </div>
+      </div>
+      <div class="container">
+        <img src="imagens/gallery/mugs/ch-landscape01.png" alt="Caneca" />
+        <div class="background">
+          <a
+            class="cart"
+            href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+            target="_blank"
+            ><img src="imagens/others/cart.svg"
+          /></a>
+          <p>Faça um Orçamento!</p>
+        </div>
+      </div>
+      <div class="container">
+        <img src="imagens/gallery/mugs/ch-landscape02.png" alt="Caneca" />
+        <div class="background">
+          <a
+            class="cart"
+            href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+            target="_blank"
+            ><img src="imagens/others/cart.svg"
+          /></a>
+          <p>Faça um Orçamento!</p>
+        </div>
+      </div>
+      <div class="container">
+        <img src="imagens/gallery/mugs/ch-landscape03.png" alt="Caneca" />
+        <div class="background">
+          <a
+            class="cart"
+            href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+            target="_blank"
+            ><img src="imagens/others/cart.svg"
+          /></a>
+          <p>Faça um Orçamento!</p>
+        </div>
+      </div>
+      <div class="container">
+        <img src="imagens/gallery/mugs/ch-landscape04.png" alt="Caneca" />
+        <div class="background">
+          <a
+            class="cart"
+            href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+            target="_blank"
+            ><img src="imagens/others/cart.svg"
+          /></a>
+          <p>Faça um Orçamento!</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Acrylic -->
+    <div id="acrylic-nav" class="info-tag">
+      <h2>Acrílicos:</h2>
+      <p>Valores a partir de: <span>R$ 3,50</span>.</p>
+    </div>
+    <section id="acrylic" class="products">
+      <div class="container">
+        <img src="imagens/gallery/acrylic/acrylic01.jpg" alt="Acrílico" />
+        <div class="background">
+          <a
+            class="cart"
+            href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+            target="_blank"
+            ><img src="imagens/others/cart.svg"
+          /></a>
+          <p>Faça um Orçamento!</p>
+        </div>
+      </div>
+      <div class="container">
+        <img src="imagens/gallery/acrylic/acrylic02.jpg" alt="Acrílico" />
+        <div class="background">
+          <a
+            class="cart"
+            href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+            target="_blank"
+            ><img src="imagens/others/cart.svg"
+          /></a>
+          <p>Faça um Orçamento!</p>
+        </div>
+      </div>
+      <div class="container">
+        <img src="imagens/gallery/acrylic/acrylic03.jpg" alt="Acrílico" />
+        <div class="background">
+          <a
+            class="cart"
+            href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+            target="_blank"
+            ><img src="imagens/others/cart.svg"
+          /></a>
+          <p>Faça um Orçamento!</p>
+        </div>
+      </div>
+      <div class="container">
+        <img src="imagens/gallery/acrylic/acrylic04.jpg" alt="Acrílico" />
+        <div class="background">
+          <a
+            class="cart"
+            href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+            target="_blank"
+            ><img src="imagens/others/cart.svg"
+          /></a>
+          <p>Faça um Orçamento!</p>
+        </div>
+      </div>
+      <div class="container">
+        <img src="imagens/gallery/acrylic/acrylic05.jpg" alt="Acrílico" />
+        <div class="background">
+          <a
+            class="cart"
+            href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+            target="_blank"
+            ><img src="imagens/others/cart.svg"
+          /></a>
+          <p>Faça um Orçamento!</p>
+        </div>
+      </div>
+      <div class="container">
+        <img
+          clas
+          class="border-img"
+          s="border-img"
+          src="imagens/gallery/acrylic/acrylic06.jpg"
+          alt="Acrílico"
+        />
+        <div class="background">
+          <a
+            class="cart"
+            href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+            target="_blank"
+            ><img src="imagens/others/cart.svg"
+          /></a>
+          <p>Faça um Orçamento!</p>
+        </div>
+      </div>
+      <div class="container">
+        <img
+          clas
+          class="border-img"
+          s="border-img"
+          src="imagens/gallery/acrylic/acrylic07.jpg"
+          alt="Acrílico"
+        />
+        <div class="background">
+          <a
+            class="cart"
+            href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+            target="_blank"
+            ><img src="imagens/others/cart.svg"
+          /></a>
+          <p>Faça um Orçamento!</p>
+        </div>
+      </div>
+      <div class="container">
+        <img
+          clas
+          class="border-img"
+          s="border-img"
+          src="imagens/gallery/acrylic/acrylic08.jpg"
+          alt="Acrílico"
+        />
+        <div class="background">
+          <a
+            class="cart"
+            href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+            target="_blank"
+            ><img src="imagens/others/cart.svg"
+          /></a>
+          <p>Faça um Orçamento!</p>
+        </div>
+      </div>
+      <div class="container">
+        <img
+          clas
+          class="border-img"
+          s="border-img"
+          src="imagens/gallery/acrylic/acrylic09.jpg"
+          alt="Acrílico"
+        />
+        <div class="background">
+          <a
+            class="cart"
+            href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+            target="_blank"
+            ><img src="imagens/others/cart.svg"
+          /></a>
+          <p>Faça um Orçamento!</p>
+        </div>
+      </div>
+      <div class="container">
+        <img
+          clas
+          class="border-img"
+          s="border-img"
+          src="imagens/gallery/acrylic/acrylic10.jpg"
+          alt="Acrílico"
+        />
+        <div class="background">
+          <a
+            class="cart"
+            href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+            target="_blank"
+            ><img src="imagens/others/cart.svg"
+          /></a>
+          <p>Faça um Orçamento!</p>
+        </div>
+      </div>
+      <div class="container">
+        <img
+          clas
+          class="border-img"
+          s="border-img"
+          src="imagens/gallery/acrylic/acrylic11.jpg"
+          alt="Acrílico"
+        />
+        <div class="background">
+          <a
+            class="cart"
+            href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+            target="_blank"
+            ><img src="imagens/others/cart.svg"
+          /></a>
+          <p>Faça um Orçamento!</p>
+        </div>
+      </div>
+      <div class="container">
+        <img
+          clas
+          class="border-img"
+          s="border-img"
+          src="imagens/gallery/acrylic/acrylic12.jpg"
+          alt="Acrílico"
+        />
+        <div class="background">
+          <a
+            class="cart"
+            href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+            target="_blank"
+            ><img src="imagens/others/cart.svg"
+          /></a>
+          <p>Faça um Orçamento!</p>
+        </div>
+      </div>
+      <div class="container">
+        <img
+          clas
+          class="border-img"
+          s="border-img"
+          src="imagens/gallery/acrylic/acrylic13.jpg"
+          alt="Acrílico"
+        />
+        <div class="background">
+          <a
+            class="cart"
+            href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+            target="_blank"
+            ><img src="imagens/others/cart.svg"
+          /></a>
+          <p>Faça um Orçamento!</p>
+        </div>
+      </div>
+      <div class="container">
+        <img
+          clas
+          class="border-img"
+          s="border-img"
+          src="imagens/gallery/acrylic/acrylic14.jpg"
+          alt="Acrílico"
+        />
+        <div class="background">
+          <a
+            class="cart"
+            href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+            target="_blank"
+            ><img src="imagens/others/cart.svg"
+          /></a>
+          <p>Faça um Orçamento!</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Shirts -->
+    <div id="shirts-nav" class="info-tag">
+      <h2><i class="bx bx-chevron-right"></i> Camisetas:</h2>
+      <p>Valores a partir de: <span>R$ 35,00</span>.</p>
+    </div>
+    <section id="shirts" class="products">
+      <div class="container">
+        <img src="imagens/gallery/shirts/shirt01.jpg" alt="" />
+        <div class="background">
+          <a
+            class="cart"
+            href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+            target="_blank"
+            ><img src="imagens/others/cart.svg"
+          /></a>
+          <p>Faça um Orçamento!</p>
+        </div>
+      </div>
+      <div class="container">
+        <img src="imagens/gallery/shirts/shirt02.jpg" alt="Camiseta" />
+        <div class="background">
+          <a
+            class="cart"
+            href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+            target="_blank"
+            ><img src="imagens/others/cart.svg"
+          /></a>
+          <p>Faça um Orçamento!</p>
+        </div>
+      </div>
+      <div class="container">
+        <img src="imagens/gallery/shirts/shirt03.png" alt="Camiseta" />
+        <div class="background">
+          <a
+            class="cart"
+            href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+            target="_blank"
+            ><img src="imagens/others/cart.svg"
+          /></a>
+          <p>Faça um Orçamento!</p>
+        </div>
+      </div>
+      <div class="container">
+        <img src="imagens/gallery/shirts/shirt04.png" alt="Camiseta" />
+        <div class="background">
+          <a
+            class="cart"
+            href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+            target="_blank"
+            ><img src="imagens/others/cart.svg"
+          /></a>
+          <p>Faça um Orçamento!</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Others -->
+    <div id="others-nav" class="info-tag">
+      <h2><i class="bx bx-chevron-right"></i> Outros:</h2>
+      <p>Valores a partir de: <span>R$ 2,50</span></p>
+    </div>
+    <section id="others" class="products">
+      <div class="container">
+        <img src="imagens/gallery/others/others01.png" alt="Camiseta" />
+        <div class="background">
+          <a
+            class="cart"
+            href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+            target="_blank"
+            ><img src="imagens/others/cart.svg"
+          /></a>
+          <p>Faça um Orçamento!</p>
+        </div>
+      </div>
+      <div class="container">
+        <img src="imagens/gallery/others/others02.png" alt="Camiseta" />
+        <div class="background">
+          <a
+            class="cart"
+            href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+            target="_blank"
+            ><img src="imagens/others/cart.svg"
+          /></a>
+          <p>Faça um Orçamento!</p>
+        </div>
+      </div>
+      <div class="container">
+        <img
+          class="border-img"
+          src="imagens/gallery/others/others03.jpg"
+          alt="Camiseta"
+        />
+        <div class="background">
+          <a
+            class="cart"
+            href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+            target="_blank"
+            ><img src="imagens/others/cart.svg"
+          /></a>
+          <p>Faça um Orçamento!</p>
+        </div>
+      </div>
+      <div class="container">
+        <img
+          class="border-img"
+          src="imagens/gallery/others/others04.jpg"
+          alt="Camiseta"
+        />
+        <div class="background">
+          <a
+            class="cart"
+            href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+            target="_blank"
+            ><img src="imagens/others/cart.svg"
+          /></a>
+          <p>Faça um Orçamento!</p>
+        </div>
+      </div>
+      <div class="container">
+        <img
+          class="border-img"
+          src="imagens/gallery/others/others05.jpg"
+          alt="Camiseta"
+        />
+        <div class="background">
+          <a
+            class="cart"
+            href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+            target="_blank"
+            ><img src="imagens/others/cart.svg"
+          /></a>
+          <p>Faça um Orçamento!</p>
+        </div>
+      </div>
+      <div class="container">
+        <img src="imagens/gallery/others/others06.jpg" alt="Camiseta" />
+        <div class="background">
+          <a
+            class="cart"
+            href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+            target="_blank"
+            ><img src="imagens/others/cart.svg"
+          /></a>
+          <p>Faça um Orçamento!</p>
+        </div>
+      </div>
+      <div class="container">
+        <img src="imagens/gallery/others/others07.jpg" alt="Camiseta" />
+        <div class="background">
+          <a
+            class="cart"
+            href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+            target="_blank"
+            ><img src="imagens/others/cart.svg"
+          /></a>
+          <p>Faça um Orçamento!</p>
+        </div>
+      </div>
+      <div class="container">
+        <img src="imagens/gallery/others/others08.jpg" alt="Camiseta" />
+        <div class="background">
+          <a
+            class="cart"
+            href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+            target="_blank"
+            ><img src="imagens/others/cart.svg"
+          /></a>
+          <p>Faça um Orçamento!</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Adress Footer -->
+    <section class="adress-footer">
+      <h2>
+        Faça um <br />
+        Orçamento!
+      </h2>
+      <a
+        href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+        target="_blank"
+        class="action"
+        data-aos="fade-right"
+        ><i class="bx bx-cart"></i> Comprar</a
+      >
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="col">
+        <h2 class="title">Peridote</h2>
+        <ul>
+          <li><i class="bx bxs-coffee"></i> Produtos Personalizados</li>
+          <li><i class="bx bxs-gift"></i> Lembranças e Presentes</li>
+          <li><i class="bx bxs-palette"></i> Estampas em Geral</li>
+          <li><i class="bx bxs-truck"></i> Entregas em todo o Brasil</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h2>Informações</h2>
+        <p>🇧🇷 Jardim Santo André - SP</p>
+        <div class="social">
+          <a
+            class="link"
+            href="https://www.instagram.com/peridoteatelie/"
+            target="_blank"
+          >
+            <i class="bx bxl-instagram"></i>
+            <span>Instagram</span>
+          </a>
+          <a
+            class="link"
+            href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+            target="_blank"
+          >
+            <i class="bx bxl-whatsapp"></i>
+            <span>Whatsapp</span>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Float Button -->
+    <div class="float-button">
+      <a
+        href="https://wa.me/5511979620970?text=Olá!+Gostei+dos+seus+produtos+no+site,+gostaria+de+fazer+um+orçamento."
+        target="_blank"
+        ><i class="bx bxl-whatsapp button"></i
+      ></a>
+    </div>
+  </body>
+</html>
